@@ -147,3 +147,6 @@ data:
 ```
 
 This configuration file sets the project name, experiment name, and data file URL. Hydra reads this file and sets the corresponding environment variables and parameters for the script to use during execution.
+
+
+To run the complete pipeline, use the terminal command `mlflow run .` and it will display a message indicating the channel or link on Weights and Biases where you can view the experiment's progress.

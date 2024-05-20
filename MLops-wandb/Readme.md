@@ -236,4 +236,3 @@ Weights and Biases (W&B) is a tool for tracking and visualizing machine learning
 3. **Hyperparameter Tuning**: Automate hyperparameter optimization using sweeps, allowing for efficient and systematic exploration of the parameter space.
 4. **Versioning**: Keep track of different versions of datasets, models, and experiments, ensuring reproducibility and transparency in the ML workflow.
 
-By integrating W&B with MLflow, you can leverage both tools to manage the entire ML lifecycle, from experiment tracking to deployment, providing a comprehensive solution for machine learning operations (MLOps).

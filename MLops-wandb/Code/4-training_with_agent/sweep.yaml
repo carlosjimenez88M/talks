@@ -1,0 +1,20 @@
+program: train.py
+method: bayes
+metric:
+  name: within_10
+  goal: maximize
+parameters:
+  data_path:
+    value: "/Users/danieljimenez/Documents/projects/Labor_Projects/globant/wandb-mlops/Code/data/house-prices-advanced-regression-techniques/train.csv"
+  n_estimators:
+    min: 10
+    max: 30
+  max_depth:
+    min: 1
+    max: 100
+  min_samples_split:
+    min: 2
+    max: 100
+  min_samples_leaf:
+    min: 1
+    max: 100

@@ -1,0 +1,22 @@
+name: example
+conda_env: conda.yml
+
+entry_points:
+  main:
+    parameters:
+      file_url:
+        description: link of the file to download
+        type: uri
+      artifact_name:
+        description: WandB Artifact Name
+        type: str
+
+    command: >-
+      python download_data.py --file_url {file_url} \
+                              --artifact_name {artifact_name}
+  other_script:
+    parameters:
+        parameter_one:
+          description: First parameter
+          type: str
+    command: python main.py {parameter_one}

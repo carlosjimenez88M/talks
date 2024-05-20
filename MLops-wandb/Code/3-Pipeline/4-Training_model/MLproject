@@ -1,0 +1,16 @@
+name: training
+conda_env: conda.yml
+
+entry_points:
+  main:
+    parameters:
+      train_artifact:
+        description: Fully-qualified artifact name for the training data
+        type: str
+      test_artifact:
+        description: Fully-qualified artifact name for the testing data
+        type: str
+
+    command: >-
+      python train.py --train_artifact {train_artifact} \
+                    --test_artifact {test_artifact}

@@ -1,0 +1,11 @@
+name: split_dataset
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip=24.0
+  - pip:
+    - scikit-learn==1.4.2
+    - wandb==0.17.0
+    - pandas==2.2.2

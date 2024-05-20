@@ -190,7 +190,7 @@ metric:
   goal: maximize
 parameters:
   data_path:
-    value: "/Users/danieljimenez/Documents/projects/Labor_Projects/globant/wandb-mlops/Code/data/house-prices-advanced-regression-techniques/train.csv"
+    value: "../data/house-prices-advanced-regression-techniques/train.csv"
   n_estimators:
     min: 10
     max: 30

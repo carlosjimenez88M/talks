@@ -8,7 +8,7 @@ In this repository, you will find some of the talks I have given in recent years
 
 |Title|Year|
 |----:|---:|
-|[Artificial Intelligence : Prompts designs]()|2024|
+|[Artificial Intelligence : Prompts designs](https://github.com/carlosjimenez88M/talks/blob/master/tata/Slides.pdf)|2024|
 |[Weights and Bias Application into Pipeline with MLflow](https://github.com/carlosjimenez88M/talks/tree/master/MLops-wandb)|2024|
 |[Artifitial Intelligence : Human Analytics case](https://www.notion.so/Curso-Inteligencia-Artificial-2fd2cb2e54da4f16a3c1b3a76e691080?pvs=4)|2024|
 |[Labor Economics:A perspective from time series and XGBoost models ]()|2023|
